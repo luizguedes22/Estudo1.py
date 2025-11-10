@@ -1,0 +1,8 @@
+a=input('digite algo:')
+print(f'só tem espaços?{a.isspace()}')
+print(f'é numerico?{a.isnumeric()}')
+print(f'é alfabetico?{a.isalpha()}')
+print(f'é alfanumerico?{a.isalnum()}')
+print(f'está em letras maiúsculas?{a.isupper()}')
+print(f'está em letras minúsculas?{a.islower()}')
+print(f'está capitalizada?{a.istitle()}')
